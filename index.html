@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Foodie - Login & Sign Up</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="auth-box">
+
+        <div class="logo">🍔</div>
+
+        <h1>Foodie</h1>
+
+        <p class="subtitle">
+            Delicious food, delivered to your door.
+        </p>
+
+        <div class="tabs">
+            <button id="loginTab" class="active">
+                Login
+            </button>
+
+            <button id="signupTab">
+                Sign Up
+            </button>
+        </div>
+
+        <!-- Login Form -->
+
+        <form id="loginForm">
+
+            <label>Email</label>
+            <input
+                type="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label>Password</label>
+            <input
+                type="password"
+                placeholder="Enter your password"
+                required
+            >
+
+            <a class="forgot" href="#">
+                Forgot password?
+            </a>
+
+            <button class="submit-btn" type="submit">
+                Login
+            </button>
+
+        </form>
+
+
+        <!-- Signup Form -->
+
+        <form id="signupForm" class="hidden">
+
+            <label>Full Name</label>
+            <input
+                type="text"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label>Email</label>
+            <input
+                type="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label>Password</label>
+            <input
+                type="password"
+                placeholder="Create a password"
+                required
+            >
+
+            <label>Confirm Password</label>
+            <input
+                type="password"
+                placeholder="Confirm password"
+                required
+            >
+
+            <button class="submit-btn" type="submit">
+                Create Account
+            </button>
+
+        </form>
+
+        <p class="bottom-text">
+            <span id="bottomMessage">
+                Don't have an account?
+            </span>
+
+            <button id="switchButton">
+                Sign Up
+            </button>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
